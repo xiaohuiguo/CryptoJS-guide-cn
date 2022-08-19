@@ -442,7 +442,7 @@ var utf16 = CryptoJS.enc.Utf16LE.stringify(words);
 ```
 
 ## 使用方法
-### 一、安装
+### 1、安装
 
 ```
 npm install crypto-js --save-dev
@@ -450,7 +450,7 @@ yarn add crypto-js --dev
 // 或者下载js文件https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js
 ```
 
-### 二、在node中使用
+### 2、在node中使用
 **ES6方式：**
 
 ```
@@ -478,7 +478,7 @@ var CryptoJS = require("crypto-js");
 console.log(CryptoJS.HmacSHA1("Message", "Key"));
 ```
 
-### 二、在浏览器客户端使用
+### 3、在浏览器客户端使用
 **RequireJS方式：**
 按需导入CryptoJS子模块方法
 
@@ -521,7 +521,7 @@ require(["crypto-js"], function (CryptoJS) {
 ```
 
  
-### 三、AES加密例子
+### 4、AES加密例子
 **纯文本加密**
 
 ```
