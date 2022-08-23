@@ -114,7 +114,11 @@ var hash = CryptoJS.HmacMD5("Message", "Secret Passphrase");
 var hash = CryptoJS.HmacSHA1("Message", "Secret Passphrase");
 var hash = CryptoJS.HmacSHA256("Message", "Secret Passphrase");
 var hash = CryptoJS.HmacSHA512("Message", "Secret Passphrase");
-Progressive HMAC Hashing【渐进式HMAC散列】
+```
+
+### 渐进式HMAC散列
+
+```
 var hmac = CryptoJS.algo.HMAC.create(CryptoJS.algo.SHA256, "Secret Passphrase");
 hmac.update("Message Part 1");
 hmac.update("Message Part 2");
